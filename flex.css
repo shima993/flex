@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.flex{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.flex div{
+    
+height: 100vh;
+ width: 20%;
+align-items: center;
+justify-content: center;
+display: flex;
+color: white;
+font-size: 30px;
+}
+
+.awesome{
+   
+     background-image:linear-gradient(-45deg, rgba(0, 0, 102,1), rgba(0, 0, 102,1) 30%, rgba(0, 0, 102,0.8) 30%,  rgba(0, 0, 102,0.8) 70%,  rgba(0, 0, 102,1)0);
+}
+
+.words{
+ 
+    background-image: linear-gradient(-45deg,rgba(77, 192, 255,1), rgba(77, 192, 255,1) 30%, rgba(77, 192, 255,0.8) 30%,  rgba(77, 192, 255,0.8) 70%,  rgba(77, 192, 255,1)0);
+
+}
+
+.go{
+    background-image: linear-gradient(-45deg,rgba(153, 0, 153,1), rgba(153, 0, 153,1) 30%, rgba(153, 0, 153,0.8) 30%,  rgba(153, 0, 153,0.8) 70%,  rgba(153, 0, 153,1)0);
+
+}
+
+.inside{
+    background-image: linear-gradient(-45deg,rgba(230, 184, 0,1), rgba(230, 184, 0,1) 30%, rgba(230, 184, 0,0.8) 30%,  rgba(230, 184, 0,0.8) 70%,  rgba(230, 184, 0,1)0);
+
+    
+}
+
+.here{
+    background-image: linear-gradient(-45deg,rgba(255, 51, 51,1), rgba(255, 51, 51,1) 30%, rgba(255, 51, 51,0.8) 30%,  rgba(255, 51, 51,0.8) 70%,  rgba(255, 51, 51,1)0);
+
+}
+
+@media screen and (max-width:750px){
+
+    .flex{
+       
+        flex-direction: column;
+    }
+
+    .flex div{
+        width: 100%;
+        height: 20vh;
+    }
+}
